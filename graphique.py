@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-import sys
+
 tab = [[], [], []]
 for i in range(3):
     nom = ["recuit.out", "swaps.out", "desc.out"][i]
@@ -12,3 +12,4 @@ plt.plot(tab[2])
 #print(len(tab[2]))
 #plt.ylabel('some numbers')
 plt.show()
+plt.savefig("figure")
